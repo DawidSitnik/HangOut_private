@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "745075671900",
+    "firebase_url": "https://hangout-beeec.firebaseio.com",
+    "project_id": "hangout-beeec",
+    "storage_bucket": "hangout-beeec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745075671900:android:e63545104191ac97",
+        "android_client_info": {
+          "package_name": "app.hangout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745075671900-h3qaa43ttb3mou4u2ul37rpd3hosov3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwOpX9LJm_vLONmzHQrvQ_ZgVYEKHq7Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745075671900-h3qaa43ttb3mou4u2ul37rpd3hosov3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

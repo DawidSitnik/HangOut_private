@@ -1,0 +1,16 @@
+Co jeszcze zrobic:
+
+- dodać toasty
+- dodac na serwer i ogarnac zdjecia
+- pododawac male zdjecia
+
+-ustawienia
+-logowanie przez google i fb
+
+-zrobic update do nowej wersji
+
+zmiany w kodzie:
+-redux
+-profile/user screen
+-podzielic na kontrolery
+-zrobić nazwe czcionki jako const

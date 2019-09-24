@@ -1,0 +1,46 @@
+{
+  "name": "hangout",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll",
+    "devtools": "react-devtools"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "1.3.0": "^1.3.0",
+    "@expo/samples": "2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-equimper": "^2.2.2",
+    "expo": "^35.0.0",
+    "expo-asset": "^7.0.0",
+    "expo-font": "^7.0.0",
+    "expo-image-picker": "^7.0.0",
+    "expo-permissions": "^7.0.0",
+    "geolib": "^3.0.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-enhanced-popup-menu": "^0.6.1",
+    "react-native-extended-stylesheet": "^0.11.1",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-maps": "^0.25.0",
+    "react-native-numeric-input": "^1.6.5",
+    "react-native-paper": "^2.14.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.0.9",
+    "react-navigation-material-bottom-tabs": "^1.0.0",
+    "react-navigation-transitions": "^1.0.8"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^35.0.0",
+    "react-autocomplete-cli": "0.0.3"
+  },
+  "private": true
+}
