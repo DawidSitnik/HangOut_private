@@ -6,20 +6,20 @@ const UserSchema = new Schema({
     type: String,
     required: true,
     minlength: 3,
-    maxlength: 50,
+    maxlength: 20,
   },
   email: {
     type: String,
     required: true,
     minlength: 5,
-    maxlength: 255,
+    maxlength: 35,
     unique: true,
   },
   password: {
     type: String,
     required: true,
     minlength: 5,
-    maxlength: 1024,
+    maxlength: 30,
   },
   profilePicture: {
     type: String,

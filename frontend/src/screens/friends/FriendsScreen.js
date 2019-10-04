@@ -60,7 +60,8 @@ static defaultProps = {
               <View key={friend.id} style={stylesList.userCard}>
                 <Image
                   source={{
-                    uri: globals.serverAddress + "photos/download/" + new Date().getMinutes() + "/" + friend.id + "/",
+                    //uri: globals.serverAddress + "photos/download/" + new Date().getMinutes() + "/" + friend.id + "/",
+                    uri: 'https://www.cmcaindia.org/wp-content/uploads/2015/11/default-profile-picture-gmail-2.png',
                     cache: 'reload',
                     method: 'post',
                     headers: {

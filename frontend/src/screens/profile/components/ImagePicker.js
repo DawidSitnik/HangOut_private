@@ -30,7 +30,6 @@ class MyImagePicker {
     return this.imageUri;
   };
 
-
   postImage = (image) => {
     const photo = {
       uri: image,

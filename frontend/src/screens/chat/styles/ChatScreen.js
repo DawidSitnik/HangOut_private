@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     margin: 5,
     marginHorizontal: 10,
     alignSelf: 'flex-end',
-    backgroundColor: Colors.basicDetailGrey,
+    backgroundColor: 'black',
     color: Colors.basicText,
     overflow: 'hidden',
     borderRadius: 15,

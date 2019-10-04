@@ -52,7 +52,8 @@ export default class ImagePickerExample extends React.Component {
       <View style={styles.root}>
         <Image
           source={{
-            uri: globals.serverAddress + "photos/download/" + new Date().getTime() + "/" + this.state.userId + "/",
+            //uri: globals.serverAddress + "photos/download/" + new Date().getTime() + "/" + this.state.userId + "/",
+            uri: 'https://www.cmcaindia.org/wp-content/uploads/2015/11/default-profile-picture-gmail-2.png',
             cache: 'reload',
             method: 'post',
             headers: {

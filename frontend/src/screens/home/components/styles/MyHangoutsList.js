@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   hangoutCardTime: {
     fontSize: 14,
     fontFamily: 'montserratMed',
-    color: Colors.basicTextGrey,
+    color: 'black',
   },
   hangoutCardMaxPeople: {
     fontSize: 14,

@@ -39,7 +39,6 @@ class PeopleInHangout extends Component {
     if (this.state.loading) {
       return <LoadingScreen />;
     }
-              console.log(this.state.peopleInHangout)
     return (
       <View style={styles.root}>
         {this.state.peopleInHangout !== undefined ?

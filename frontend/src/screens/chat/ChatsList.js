@@ -48,7 +48,8 @@ static defaultProps = {
               <View key={chat._id} style={styles.userCard}>
                 <Image
                   source={{
-                    uri: globals.serverAddress + "photos/download/" + new Date().getMinutes() + "/" + chat._id + "/",
+                    //uri: globals.serverAddress + "photos/download/" + new Date().getMinutes() + "/" + chat._id + "/",
+                    uri: 'https://www.cmcaindia.org/wp-content/uploads/2015/11/default-profile-picture-gmail-2.png',
                     cache: 'reload',
                     method: 'post',
                     headers: {

@@ -41,7 +41,8 @@
         "INTERNET",
         "com.google.android.providers.gsf.permission.READ_GSERVICES"
       ]
-    }
+    },
+    "facebookScheme": "fb731299553982078"
   },
   "name": "hangout"
 }

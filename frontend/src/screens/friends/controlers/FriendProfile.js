@@ -24,6 +24,8 @@ class Controler {
       return true;
     }
     if (content.request === 'notFriend') _this.setState({ friendButton: 'Add Friend' });
+
+    return false;
   }
 }
 

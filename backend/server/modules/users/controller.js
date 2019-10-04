@@ -8,20 +8,16 @@ const isRealeaseVersion = 0;// Change this to remove token authentication
 
 export const createUser = async (req, res) => {
   const { name, email, password } = req.body;
-  console.log(name +' '+ email +' '+password)
   const { error } = User.validateUser(req.body);
   if (error) {
-    console.log("err1")
     return res.status(400).send(error.details[0].context.label); }
 
   const isEmail = await User.findOne({ email: req.body.email });
   if (isEmail) {
-    console.log("err2")
     return res.status(400).send({ error: true, message: 'That email already exisits!' }); }
 
   const isName = await User.findOne({ name: req.body.name });
   if (isName) {
-    console.log("err3")
     return res.status(400).send({ error: true, message: 'That login already exisits!' }); }
 
   const salt = await bcrypt.genSalt(10);
@@ -168,8 +164,11 @@ export const checkIfRequestSend = async (req, res) => {
 
     // if array empty or doesnt exist
     if (friendRequests === undefined || friendRequests.length === 0) { return res.status(201).json({ error: false, request: 'notRequested' }); }
-
-    const request = friendRequests.find(x => x.friendId).request;
+    let user = friendRequests.find(x => x.friendId == friendId)
+    let request = "notRequested";
+    if(user != undefined){
+      request = user.request;
+    }
 
     // if we found a request
     return res.status(201).json({ error: false, request });

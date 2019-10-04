@@ -26,7 +26,7 @@ export default class ImagePickerExample extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      image: 'https://i.ytimg.com/vi/T3arcT2ntsE/maxresdefault.jpg',
+      image: 'https://www.cmcaindia.org/wp-content/uploads/2015/11/default-profile-picture-gmail-2.png',
       friendId: 'default',
       name: 'default',
       description: 'default',
@@ -57,7 +57,8 @@ export default class ImagePickerExample extends React.Component {
       <View style={styles.root}>
         <Image
           source={{
-            uri: globals.serverAddress + "photos/download/" + new Date().getTime() + "/" + this.props.navigation.state.params.userId + "/",
+            //uri: globals.serverAddress + "photos/download/" + new Date().getTime() + "/" + this.props.navigation.state.params.userId + "/",
+            uri: 'https://www.cmcaindia.org/wp-content/uploads/2015/11/default-profile-picture-gmail-2.png',
             cache: 'reload',
             method: 'post',
             headers: {

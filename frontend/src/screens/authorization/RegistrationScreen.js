@@ -40,10 +40,8 @@ class RegistrationScreen extends Component {
   signUp = async () => {
     try {
       let response = await controller.register(this.state.username, this.state.email, this.state.password);
-      console.log("123: "+response)
 
       response = JSON.parse(response);
-      console.log("aaaa:"+response)
       this.setState({ errorMessage: response.message });
       if (globals.id !== 'null') {
         console.log(globals);

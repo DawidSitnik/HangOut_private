@@ -50,10 +50,10 @@ class CreateHangout extends Component {
       <View style={styles.root}>
         <Text style={styles.warning}> {this.state.warning} </Text>
         <Text style={styles.title}> Activity </Text>
-        <TextInput style={styles.input} placeholder={'Choose your activity'} onChangeText={(activity) => this.setState({ activity })} />
+        <TextInput style={styles.input} placeholderTextColor="white" placeholder={'Choose your activity'} onChangeText={(activity) => this.setState({ activity })} />
 
         <Text style={styles.title}> Description </Text>
-        <TextInput style={styles.input} placeholder={'Describe your hangout'} onChangeText={(description) => this.setState({ description })} />
+        <TextInput style={styles.input} placeholderTextColor="white" placeholder={'Describe your hangout'} onChangeText={(description) => this.setState({ description })} />
 
         <Text style={styles.title}> Location </Text>
         <TouchableOpacity
@@ -67,6 +67,7 @@ class CreateHangout extends Component {
           style={styles.input}
           keyboardType="numeric"
           placeholder={'How far can you go (meters)'}
+          placeholderTextColor="white"
           onChangeText={(radius) => this.setState({ radius })}
         />
 
@@ -86,6 +87,7 @@ class CreateHangout extends Component {
         <Text style={styles.title}> Maximum Number of People </Text>
         <TextInput
           style={styles.input}
+          placeholderTextColor="white"
           keyboardType="numeric"
           placeholder={'From 1 to 10'}
           onChangeText={(number) => this.setState({ number })}

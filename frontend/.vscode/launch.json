@@ -5,11 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug in Exponent",
+            "name": "Attach to packager",
             "cwd": "${workspaceFolder}",
             "type": "reactnative",
-            "request": "launch",
-            "platform": "exponent"
+            "request": "attach"
         }
 
     ]

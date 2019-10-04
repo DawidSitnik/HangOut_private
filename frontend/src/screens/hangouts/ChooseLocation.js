@@ -8,7 +8,7 @@ import globalStyles from '../../../constants/Styles';
 
 export default class ChooseLocation extends React.Component {
   static navigationOptions = {
-    title: 'Find Hangout',
+    title: 'Choose Location',
     headerStyle: {
       backgroundColor: Colors.basicDetail,
     },
